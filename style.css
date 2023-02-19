@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+}
+.card {
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 8px;
+  min-width: 450px;
+  margin: 120px 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.upper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.upper img {
+  width: 75px;
+  padding: 5px;
+  margin-top: 40px;
+}
+
+.upper h1 {
+  font-weight: 200;
+  margin: 5px;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.upper h2 {
+  font-weight: 200;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+}
+
+.email input {
+  margin: 30px 40px 0 40px;
+  font-size: 16px;
+  padding: 20px 15px;
+  border-radius: 3px;
+  border: 1px solid rgb(200, 200, 200);
+}
+
+.email a {
+  color: #1a73e8;
+  margin: 5px 40px;
+  font-size: 14px;
+  padding: 2px 0;
+  text-decoration: none;
+}
+
+.sk {
+  display: flex;
+  flex-direction: column;
+  max-width: 360px;
+  margin: 0 40px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.sk p {
+  color: #696368;
+}
+.sk p a {
+  text-decoration: none;
+  color: #1a73e8;
+}
+
+.btn {
+  margin: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn a {
+  color: #1a73e8;
+  text-decoration: none;
+  font-size: 14px;
+  height: 48px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.btn button {
+  background-color: #1a73e8;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  height: 40px;
+}
